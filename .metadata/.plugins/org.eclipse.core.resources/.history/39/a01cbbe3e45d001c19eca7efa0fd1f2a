@@ -1,0 +1,14 @@
+package curso_programacao;
+
+public class _34ExpressoesLogicas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			// Uso do && que verifica apenas a primeira condição dando certo não executa a segunda
+			int x = 1, y =2;
+			
+			System.out.println("(x=x+1)=2 && (y=y+2)=4: " + ((x=x+1)==2 || (y=y+2)==4));
+			System.out.println("Valor de x: " + x + " -- Valor de y:" + y);
+	}
+
+}

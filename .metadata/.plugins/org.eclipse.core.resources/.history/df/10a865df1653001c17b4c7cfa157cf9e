@@ -1,0 +1,18 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class _26EntradaDeDadosParte1ScannerConsole {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Declarando objeto scanner para entrada de dados padrao
+		// via console
+		Scanner sc = new Scanner(System.in);
+		String x;
+		x = sc.next();
+		System.out.println(x);
+		sc.close();
+	}
+
+}
